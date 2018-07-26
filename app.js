@@ -1,4 +1,5 @@
 const express = require('express')
+const bodyParser = require('body-parser');
 const Datastore = require('@google-cloud/datastore');
 
 // Instantiate a datastore client
@@ -9,18 +10,30 @@ const query_questions = datastore.createQuery('question')
 
 app = express()
 app.listen(8080)
+app.use(bodyParser.json())
 
 
 app.get('/',function(req,res){res.json({"message":"Hello World"})})
 
+
+
+//STUDENT
 app.get('/students',function(req,res){
     datastore.runQuery(query).then(function(results){
-	console.log(results)
 	res.status(200).json(results)
     });
 })
 
-//get questions
+app.post('/students',function(req,res){
+	console.log(req.body)
+	const entity = {  key:{kind:"student"},data:req.body}
+	datastore.insert(entity).then( function(){res.status(200).json("inserted succesfully")});
+})
+
+
+
+//QUESTION
+
 app.get('/questions',function(req,res){
     datastore.runQuery(query_questions).then(function(results){
         console.log(results)
