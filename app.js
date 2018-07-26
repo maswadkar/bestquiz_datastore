@@ -20,7 +20,7 @@ app.get('/students',function(req,res){
     });
 })
 
-
+//get questions
 app.get('/questions',function(req,res){
     datastore.runQuery(query_questions).then(function(results){
         console.log(results)
