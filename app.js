@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 
 app.get('/',function(req,res){res.json({"message":"Hello World"})})
-
+app.get('/ping',function(req,res){res.json({"message":"pinging everywhere"})})
 
 
 //STUDENT
