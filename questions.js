@@ -2,7 +2,6 @@ const express = require('express')
 const Datastore = require('@google-cloud/datastore');
 
 const questions = express.Router();
-
 const datastore = Datastore();
 const query_questions = datastore.createQuery('question')
 
@@ -14,7 +13,6 @@ questions.use(function timeLog (req, res, next) {
 
 
 //QUESTION
-
 questions.get('/',function(req,res){
     datastore.runQuery(query_questions).then(function(results){
         console.log(results)
@@ -28,8 +26,6 @@ questions.post('/',function(req,res){
         const entity = {  key:{kind:"question"},data:req.body}
         datastore.insert(entity).then( function(){res.status(200).json("inserted succesfully")});
 })
-
-
 
 // define the about route
 questions.get('/about', function (req, res) {
