@@ -22,6 +22,6 @@ app.engine('html', require('ejs').renderFile);
 app.set('views', __dirname + '/public');
 app.set('view engine', 'ejs');
 
-app.get('/',function(req,res){res.json({"message":"Hello World"})})
+app.get('/',function(req,res){res.render('home.ejs',{'test':['mytest','yourtest','histest']})})
 app.get('/ping',function(req,res){res.json({"message":"pinging everywhere"})})
 app.get('/test',function(req,res){res.render('index.ejs',{'test':['mytest','yourtest','histest']})})
