@@ -3,7 +3,10 @@ const Datastore = require('@google-cloud/datastore');
 
 const xii = express.Router();
 const datastore = Datastore();
-const query_questions = datastore.createQuery('xiiphysics')
+const query_xiiphysics =  datastore
+                    .createQuery('books');
+
+var physics_results
 
 // middleware that is specific to this router
 xii.use(function timeLog (req, res, next) {
@@ -14,28 +17,33 @@ xii.use(function timeLog (req, res, next) {
 
 //QUESTION
 xii.get('/',function(req,res){
+var physics_results
 res.render('xii.ejs',{'test':['mytest','yourtest','histest']})
 })
 
 // define the about route
 xii.get('/xiiphysics', function (req, res) {
-  res.render('xiiphysics.ejs',{'test':['mytest','yourtest','histest']})
+  datastore.runQuery(query_xiiphysics).then(function(results){
+    res.render('xiiphysics.ejs',{'physics_results':results[0]})
+    console.log(results[0])
+  });
+  
 })
 
 
 xii.get('/xiichemistry', function (req, res) {
-  res.render('xiichemistry.ejs',{'test':['mytest','yourtest','histest']})
+  res.render('xiichemistry.ejs',{'subject':'Chemistry'})
 })
 
 xii.get('/xiibiology', function (req, res) {
-  res.render('xiibiology.ejs',{'test':['mytest','yourtest','histest']})
+  res.render('xiibiology.ejs',{'subject':'Biology'})
 })
 
 xii.get('/xiienglish', function (req, res) {
-  res.render('xiienglish.ejs',{'test':['mytest','yourtest','histest']})
+  res.render('xiienglish.ejs',{'subject':'English'})
 })
 
 xii.get('/xiimathematics', function (req, res) {
-  res.render('xiimathematics.ejs',{'test':['mytest','yourtest','histest']})
+  res.render('xiimathematics.ejs',{'subject':'Mathematics'})
 })
 module.exports = xii

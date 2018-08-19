@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <h1 align="center">CBSE Science TEXTBOOKS</h1>
+  <h1 align="center">TEXTBOOKS</h1>
 
 
 
@@ -56,10 +56,16 @@
       </ul>
     </div>
   </nav>
+
+  
   <div>
-    <p align="justify">
-      I am Physics
-    </p>
+      <div class="list-group">
+          <%physics_results.forEach(function(s){ %>
+              <a href="#" class="list-group-item list-group-item-action list-group-item-light">
+                  <%=s.book_name%>
+              </a>
+          <% }); %>
+        </div>
   </div>
 </body>
 
