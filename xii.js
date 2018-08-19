@@ -4,7 +4,8 @@ const Datastore = require('@google-cloud/datastore');
 const xii = express.Router();
 const datastore = Datastore();
 const query_xiiphysics =  datastore
-                    .createQuery('books');
+                    .createQuery('books')
+                    .filter('subject','=','physics');
 
 var physics_results
 
