@@ -57,15 +57,15 @@
     </div>
   </nav>
 
-  
+
   <div>
-      <div class="list-group">
-          <%physics_results.forEach(function(s){ %>
-              <a href=<%=s.link_to_book%> target="_blank" class="list-group-item list-group-item-action list-group-item-light">
-                  <%=s.book_name%>
-              </a>
-          <% }); %>
-        </div>
+    <div class="list-group">
+      <%physics_results.forEach(function(s){ %>
+        <a href=<%=s.link_to_book%> target="_blank" class="list-group-item list-group-item-action list-group-item-light">
+          <%=s.book_name%>
+        </a>
+        <% }); %>
+    </div>
   </div>
 </body>
 
