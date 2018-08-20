@@ -3,9 +3,9 @@ const Datastore = require('@google-cloud/datastore');
 
 const xii = express.Router();
 const datastore = Datastore();
-const query_xiiphysics = datastore
-  .createQuery('xiiphysics')
-  .order('sorter');
+const query_xiiphysics = datastore.createQuery('xiiphysics').order('sorter');
+const query_xiichemistry = datastore.createQuery('xiichemistry').order('sorter');
+const query_xiibiology = datastore.createQuery('xiibiology').order('sorter');
 
 var physics_results
 
@@ -33,11 +33,17 @@ xii.get('/xiiphysics', function (req, res) {
 
 
 xii.get('/xiichemistry', function (req, res) {
-  res.render('xiichemistry.ejs', { 'subject': 'Chemistry' })
+  datastore.runQuery(query_xiichemistry).then(function (results) {
+    res.render('xiiphysics.ejs', { 'physics_results': results[0] })
+    console.log(results[0])
+  });
 })
 
 xii.get('/xiibiology', function (req, res) {
-  res.render('xiibiology.ejs', { 'subject': 'Biology' })
+  datastore.runQuery(query_xiibiology).then(function (results) {
+    res.render('xiiphysics.ejs', { 'physics_results': results[0] })
+    console.log(results[0])
+  });
 })
 
 xii.get('/xiienglish', function (req, res) {
