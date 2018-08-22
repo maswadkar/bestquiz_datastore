@@ -8,7 +8,7 @@ const query_xiichemistry = datastore.createQuery('xiichemistry').order('sorter')
 const query_xiibiology = datastore.createQuery('xiibiology').order('sorter');
 
 const query_xiienglish = datastore.createQuery('xiienglish').order('sorter');
-const query_xiimathematics = datastore.createQuery('xiienglish').order('sorter');
+const query_xiimathematics = datastore.createQuery('xiimathematics').order('sorter');
 
 
 // middleware that is specific to this router
