@@ -559,8 +559,6 @@
     "sorter": 17,
     "subject": "biology"
   },
-
-
   {
     "id": "engxii001",
     "book_name": "Kaleidoscope CONTENT",
@@ -569,7 +567,6 @@
     "sorter": 1,
     "subject": "english"
   },
-
   {
     "id": "engxii002",
     "book_name": "SHORT-STORIES CHAPTER 01",
@@ -578,7 +575,6 @@
     "sorter": 2,
     "subject": "english"
   },
-
   {
     "id": "engxii003",
     "book_name": "SHORT-STORIES CHAPTER 02",
@@ -587,7 +583,6 @@
     "sorter": 3,
     "subject": "english"
   },
-
   {
     "id": "engxii004",
     "book_name": "SHORT-STORIES CHAPTER 03",
@@ -596,7 +591,6 @@
     "sorter": 4,
     "subject": "english"
   },
-
   {
     "id": "engxii005",
     "book_name": "SHORT-STORIES CHAPTER 04",
@@ -605,7 +599,6 @@
     "sorter": 5,
     "subject": "english"
   },
-
   {
     "id": "engxii006",
     "book_name": "SHORT-STORIES CHAPTER 05",
@@ -614,7 +607,6 @@
     "sorter": 6,
     "subject": "english"
   },
-
   {
     "id": "engxii007",
     "book_name": "POETRY CHAPTER 01",
@@ -623,7 +615,6 @@
     "sorter": 7,
     "subject": "english"
   },
-
   {
     "id": "engxii008",
     "book_name": "POETRY CHAPTER 02",
@@ -632,7 +623,6 @@
     "sorter": 8,
     "subject": "english"
   },
-
   {
     "id": "engxii009",
     "book_name": "POETRY CHAPTER 03",
@@ -641,7 +631,6 @@
     "sorter": 9,
     "subject": "english"
   },
-
   {
     "id": "engxii010",
     "book_name": "POETRY CHAPTER 04",
@@ -650,7 +639,6 @@
     "sorter": 10,
     "subject": "english"
   },
-
   {
     "id": "engxii011",
     "book_name": "POETRY CHAPTER 05",
@@ -659,7 +647,6 @@
     "sorter": 11,
     "subject": "english"
   },
-
   {
     "id": "engxii012",
     "book_name": "POETRY CHAPTER 06",
@@ -668,7 +655,6 @@
     "sorter": 12,
     "subject": "english"
   },
-
   {
     "id": "engxii013",
     "book_name": "POETRY CHAPTER 07",
@@ -677,7 +663,6 @@
     "sorter": 13,
     "subject": "english"
   },
-
   {
     "id": "engxii014",
     "book_name": "POETRY CHAPTER 08",
@@ -686,7 +671,6 @@
     "sorter": 14,
     "subject": "english"
   },
-
   {
     "id": "engxii015",
     "book_name": "NON-FICTION CHAPTER 01",
@@ -695,7 +679,6 @@
     "sorter": 15,
     "subject": "english"
   },
-
   {
     "id": "engxii016",
     "book_name": "NON-FICTION CHAPTER 02",
@@ -704,7 +687,6 @@
     "sorter": 16,
     "subject": "english"
   },
-
   {
     "id": "engxii017",
     "book_name": "NON-FICTION CHAPTER 03",
@@ -713,7 +695,6 @@
     "sorter": 17,
     "subject": "english"
   },
-
   {
     "id": "engxii018",
     "book_name": "NON-FICTION CHAPTER 04",
@@ -722,7 +703,6 @@
     "sorter": 18,
     "subject": "english"
   },
-
   {
     "id": "engxii019",
     "book_name": "NON-FICTION CHAPTER 05",
@@ -731,7 +711,6 @@
     "sorter": 19,
     "subject": "english"
   },
-
   {
     "id": "engxii020",
     "book_name": "NON-FICTION CHAPTER 06",
@@ -740,7 +719,6 @@
     "sorter": 20,
     "subject": "english"
   },
-
   {
     "id": "engxii021",
     "book_name": "DRAMA CHAPTER 01",
@@ -749,7 +727,6 @@
     "sorter": 21,
     "subject": "english"
   },
-
   {
     "id": "engxii022",
     "book_name": "DRAMA CHAPTER 02",
@@ -758,6 +735,4 @@
     "sorter": 22,
     "subject": "english"
   }
-
-
 ]
