@@ -248,6 +248,19 @@
   "subject":"mathematics"},
 
 
+  {"id":"chexii001",
+    "book_name":"CHEMISTRY PART-I content",
+    "class":"xii",
+    "link_to_book":"https://storage.googleapis.com/cbse_books/xii_che_100.pdf",
+    "sorter":1,
+    "subject":"chemistry"},
+    
+    {"id":"chexii002",
+    "book_name":"CHAPTER 01",
+    "class":"xii",
+    "link_to_book":"https://storage.googleapis.com/cbse_books/xii_che_101.pdf",
+    "sorter":1,
+    "subject":"chemistry"},  
   
   {"id":"chexii003",
   "book_name":"CHAPTER 02",
