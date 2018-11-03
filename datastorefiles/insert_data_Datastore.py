@@ -1,3 +1,4 @@
+import sys
 from google.cloud import datastore
 client = datastore.Client(namespace="quiz")
 
@@ -11,7 +12,7 @@ def insert_data_into_datastore(kind,each_row):
     client.put(book)
 
 import json
-f = open('insert_data_Datastore.json').read()
+f = open(sys.argv[1]).read()
 data = json.loads(f)
 for each_row in data:
     insert_data_into_datastore('books',each_row)

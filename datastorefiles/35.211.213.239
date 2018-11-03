@@ -1,0 +1,163 @@
+[
+  {
+    "id": "xiphy001",
+    "book_name": "Physics PART-I Content",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_100.pdf",
+    "sorter": 1,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 01",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_101.pdf",
+    "sorter": 2,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 02",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_102.pdf",
+    "sorter": 3,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 03",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_103.pdf",
+    "sorter": 4,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 04",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_104.pdf",
+    "sorter": 5,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 05",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_105.pdf",
+    "sorter": 6,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 06",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_106.pdf",
+    "sorter": 7,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 07",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_107.pdf",
+    "sorter": 8,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 08",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_108.pdf",
+    "sorter": 9,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "Physics PART-I APPENDIX",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_109.pdf",
+    "sorter": 10,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "Physics PART-I ANSWERS",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_110.pdf",
+    "sorter": 11,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "Physics PART-II Content",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_200.pdf",
+    "sorter": 12,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 09",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_201.pdf",
+    "sorter": 13,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 10",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_202.pdf",
+    "sorter": 14,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 11",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_203.pdf",
+    "sorter": 15,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 12",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_204.pdf",
+    "sorter": 16,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 13",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_205.pdf",
+    "sorter": 17,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 14",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_206.pdf",
+    "sorter": 18,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "CHAPTER 15",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_207.pdf",
+    "sorter": 19,
+    "subject": "physics"
+  },
+  {
+    "id": "xiphy001",
+    "book_name": "Physics PART-II ANSWERS",
+    "class": "xii",
+    "link_to_book": "https://storage.googleapis.com/cbse_books/xi/phy/xi_phy_208.pdf",
+    "sorter": 20,
+    "subject": "physics"
+  }
+
+]
