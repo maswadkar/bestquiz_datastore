@@ -1,0 +1,6 @@
+indexes:
+- kind: books
+  properties:
+  - name: class
+  - name: subject
+  - name: sorter
