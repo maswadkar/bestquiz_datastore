@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/datastore": "^2.*",
-    "ejs": "^2.6.1",
+    "ejs": "^2.6.2",
     "express": "^4.16.3"
   }
 }
